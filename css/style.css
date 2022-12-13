@@ -156,15 +156,18 @@ sup {
 }
 
 a {
-  color: #FDAC53;
+  color: #000000;
   text-decoration: none;
   background-color: transparent;
+  
 }
 
 a:hover {
   color: #fc8807;
   text-decoration: underline;
 }
+
+a.class1:hover {text-decoration: underline; color: #fc8807;}
 
 a:not([href]):not([class]) {
   color: inherit;
