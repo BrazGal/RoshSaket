@@ -40,6 +40,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  
+  
 }
 
 html {
@@ -47,6 +49,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -60,7 +63,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #4A4A4A;
-  text-align: left;
+  text-align: right;
   background-color: #fff;
 }
 
@@ -81,7 +84,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-size: 18px
 }
 
 abbr[title],
@@ -209,7 +213,7 @@ caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   color: #6c757d;
-  text-align: left;
+  text-align: right;
   caption-side: bottom;
 }
 
@@ -3033,7 +3037,7 @@ input[type="button"].btn-block {
   margin: 0.125rem 0 0;
   font-size: 1rem;
   color: #4A4A4A;
-  text-align: left;
+  text-align: right;
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
@@ -3430,7 +3434,7 @@ input[type="button"].btn-block {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
-  text-align: center;
+  text-align: right;
   white-space: nowrap;
   background-color: #e9ecef;
   border: 1px solid #ced4da;
@@ -4969,7 +4973,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   justify-content: center;
   overflow: hidden;
   color: #fff;
-  text-align: center;
+  text-align: right;
   white-space: nowrap;
   background-color: #FDAC53;
   transition: width 0.6s ease;
@@ -5572,7 +5576,7 @@ a.close.disabled {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  text-align: left;
+  text-align: right;
   text-align: start;
   text-decoration: none;
   text-shadow: none;
@@ -5684,7 +5688,7 @@ a.close.disabled {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  text-align: left;
+  text-align: right;
   text-align: start;
   text-decoration: none;
   text-shadow: none;
@@ -5984,11 +5988,11 @@ a.close.disabled {
 .carousel-indicators li {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 30px;
+  width: 300px;
   height: 3px;
   margin-right: 3px;
-  margin-left: 3px;
-  text-indent: -999px;
+  margin-left: 2700px;
+  text-indent: 99px;
   cursor: pointer;
   background-color: #fff;
   background-clip: padding-box;
@@ -9164,7 +9168,7 @@ button.bg-dark:focus {
 }
 
 .text-left {
-  text-align: left !important;
+  text-align: right !important;
 }
 
 .text-right {
@@ -9177,7 +9181,7 @@ button.bg-dark:focus {
 
 @media (min-width: 576px) {
   .text-sm-left {
-    text-align: left !important;
+    text-align: right !important;
   }
   .text-sm-right {
     text-align: right !important;
@@ -9487,6 +9491,11 @@ h6,
   right: 30px;
   bottom: 30px;
   z-index: 99;
+}
+
+h2 {
+  width: 100%;
+  text-align:center;
 }
 
 @media (min-width: 992px) {
